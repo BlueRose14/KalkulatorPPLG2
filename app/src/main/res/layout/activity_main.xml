@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="185dp"
+        android:layout_marginLeft="325px"
+        android:background="@drawable/starbuckslogorgb"
+        android:gravity="center" />
+
+    <TextView
+        android:textSize="10pt"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:text="Please Login" />
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_marginTop="20px"
+        android:layout_width="wrap_content"
+        android:width="1000px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:gravity="center"
+        android:hint="username"
+        android:minHeight="48dp"
+        android:background="@drawable/back"
+
+        />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="100px"
+        android:layout_marginBottom="48px"
+        android:width="1000px"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <Button
+        android:padding="2px"
+        android:textSize="50px"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:id="@+id/btnPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_green_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tidak punya akun, klik disini ?"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_marginLeft="300px"
+        />
+
+
+
+</LinearLayout>
